@@ -17,7 +17,7 @@ const HomePage = () => {
               <div className='flex flex-col gap-3 text-center  border-2 rounded-3xl w-full p-3'>
                   {/* <h3 className='text-3xl uppercase font-semibold'>shop now</h3> */}
                   <a href='https://wa.me/919207066699' target='_blank'><img className='h-16 object-contain rounded-2xl py-1 bg-white hover:bg-gray-200 duration-300 w-full' src={safewht} alt="" /></a>
-                  <a href='https://amzn.in/d/bEjLF1S' target='_blank'><img className='h-16 object-contain rounded-2xl py-1 bg-white hover:bg-gray-200 duration-300 w-full' src={safeamz} alt="" /></a>
+                  <a href='https://amzn.in/d/bfwx3Ta' target='_blank'><img className='h-16 object-contain rounded-2xl py-1 bg-white hover:bg-gray-200 duration-300 w-full' src={safeamz} alt="" /></a>
                   <a href='#'><img className='h-16 object-contain rounded-2xl py-1 bg-white hover:bg-gray-200 duration-300 w-full' src={safeflp} alt="" /></a>
               </div>
           </div>
@@ -32,6 +32,7 @@ const HomePage = () => {
               issues etc, and also can be used during pre and
               post surgery purposes to keep your ears dry and
               clean.</p>
+              <Link to='/shop' className="bg-main hover:bg-yellow-600 duration-300 text-black px-10 py-2 w-fit mx-auto rounded-3xl font-semibold uppercase text-2xl mt-10">shop now</Link>
           </div>
         </div>
         <div className=''>

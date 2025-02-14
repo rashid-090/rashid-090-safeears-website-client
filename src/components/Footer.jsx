@@ -1,6 +1,6 @@
 import React from "react";
 import { FaWhatsapp } from "react-icons/fa6";
-import {uklgo,indlgo} from '../assets'
+import {uklgo,indlgo,whtpicon} from '../assets'
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa6";
@@ -11,7 +11,9 @@ const Footer = () => {
   if (pathname === "/login") return null;
   return (
     <footer className="border-t-4 border-main py-5 flex items-center">
-
+      <div className="fixed bottom-5 right-5">
+        <a href="https://wa.me/919207066699" target="_blank"><img className="w-14 h-14 animate-pulse hover:animate-none hover:-translate-y-2 duration-300 cursor-pointer" src={whtpicon} alt="" /></a>
+      </div>
       <div className="w-11/12 lg:w-10/12 mx-auto">
         <div className="text-base flex flex-col items-center lg:items-start gap-y-5 lg:flex-row justify-between">
           <div className="flex flex-col xl:flex-row items-center gap-2">

@@ -15,8 +15,10 @@ import safewht from './images/new/earwht.png'
 import safeamz from './images/new/amz.png'
 import safeflp from './images/new/earflip.png'
 
+import whtpicon from './logos/whatsapp.svg'
+
 export{
-    safewht,safeamz,safeflp,
+    safewht,safeamz,safeflp,whtpicon,
     indlgo,
     uklgo,
     logo,
