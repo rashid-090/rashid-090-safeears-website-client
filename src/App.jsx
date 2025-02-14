@@ -18,7 +18,7 @@ import HomePage from "./pages/HomePage";
 import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
 import OurVideos from "./pages/OurVideos";
-import Shop from "./pages/Shop";
+import Shop from "./pages/shop";
 import Construct from "./pages/Construct";
 import Profile from "./pages/Profile";
 import OTP from "./components/OTPSection";
