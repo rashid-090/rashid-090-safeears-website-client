@@ -20,7 +20,7 @@ import ContactUs from "./pages/ContactUs";
 import OurVideos from "./pages/OurVideos";
 import Shop from "./pages/shop";
 import Construct from "./pages/Construct";
-import Profile from "./pages/Profile";
+import Profile from "./pages/profile";
 import OTP from "./components/OTPSection";
 import LoginPage from "./pages/LoginPage";
 import Orders from "./pages/Orders";
